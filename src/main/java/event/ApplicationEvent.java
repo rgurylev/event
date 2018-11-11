@@ -19,7 +19,7 @@ public abstract class ApplicationEvent extends EventObject {
         super(null);
     }
 
-    public ApplicationEvent(Object source) {
+    public ApplicationEvent(Object source ) {
 
         super(source);
         this.source = source;
