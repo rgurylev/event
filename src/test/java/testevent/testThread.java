@@ -11,7 +11,7 @@ public class testThread {
     private static final Logger log = LogManager.getRootLogger();
     public static void main(String[] args)  {
 
-
+/*
         Thread t1 = new Thread(new EventSourceC("Blue"));
         t1.setDaemon(true);
         t1.start();
@@ -23,6 +23,7 @@ public class testThread {
         Thread t3 = new Thread(new EventSourceC("Green"));
         t3.setDaemon(true);
         t3.start();
+*/
 
     }
 }
